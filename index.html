@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<title>Crazy Images</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular-resource.js"></script>
+</head>
+<body>
+	<div id ="content">
+		<header ng-controller = "headCtrl">
+			<div class = "option" ng-click = "close()">&#x2716;</div>
+			<div class = "option"ng-click = "maximize()">&#x1f5d6;</div>
+			<div class = "option"ng-click = "minimize()">&#x1f5d5;</div>
+		</header>
+		<div id="mainContent" ng-view></div> 
+	<script type="text/javascript" src="script.js"></script>
+	</div>
+	
+</body>
+</html>

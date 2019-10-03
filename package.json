@@ -1,0 +1,18 @@
+{
+  "name": "crazy-images",
+  "version": "1.0.0",
+  "description": "A cool little image editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harasees Singh Gill",
+  "license": "ISC",
+  "dependencies": {
+    "electron-screenshot": "^1.0.5",
+    "image-size": "^0.7.2"
+  },
+  "devDependencies": {
+    "electron": "^6.0.11"
+  }
+}
